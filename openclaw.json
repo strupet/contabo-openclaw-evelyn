@@ -1,0 +1,118 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/data/.openclaw/workspace",
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6"
+      },
+      "models": {
+        "anthropic/claude-opus-4-8": {},
+        "anthropic/claude-sonnet-4-6": {}
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "872204aa16bc76aa65636052e4b3992a02f49d5cf21680ca"
+    },
+    "port": 18789,
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "trustedProxies": [
+      "127.0.0.1"
+    ],
+    "controlUi": {
+      "allowedOrigins": [
+        "http://100.112.242.78:8811"
+      ]
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "full",
+    "exec": {
+      "security": "full",
+      "strictInlineEval": false
+    }
+  },
+  "plugins": {
+    "entries": {
+      "anthropic": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      },
+      "usage-tracker": {
+        "enabled": true,
+        "hooks": {
+          "allowConversationAccess": true
+        }
+      }
+    },
+    "allow": [
+      "telegram",
+      "usage-tracker"
+    ],
+    "load": {
+      "paths": [
+        "/app/node_modules/@chrysb/alphaclaw/lib/plugin/usage-tracker"
+      ]
+    }
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      }
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-07-13T19:57:11.606Z",
+    "lastRunVersion": "2026.6.11",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.11",
+    "lastTouchedAt": "2026-07-13T19:57:19.530Z"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "${TELEGRAM_BOT_TOKEN}",
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist"
+    }
+  },
+  "commands": {
+    "restart": true
+  },
+  "hooks": {
+    "internal": {
+      "entries": {
+        "bootstrap-extra-files": {
+          "enabled": true,
+          "paths": [
+            "hooks/bootstrap/AGENTS.md",
+            "hooks/bootstrap/TOOLS.md"
+          ]
+        }
+      },
+      "enabled": true
+    }
+  }
+}

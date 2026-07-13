@@ -1,0 +1,25 @@
+# Ignore everything by default.
+*
+
+# Whitelist specific files/dirs.
+!workspace/
+!workspace/**
+workspace/.openclaw/
+workspace/.openclaw/**
+!gogcli/
+gogcli/*
+!gogcli/state.json
+db/
+db/**
+!skills/
+!skills/**
+!hooks/
+!hooks/transforms/
+!hooks/transforms/**
+!cron/
+!cron/jobs.json
+# OpenClaw 2026.4.20+: runtime execution state (job definitions stay in cron/jobs.json).
+cron/jobs-state.json
+!openclaw.json
+!.gitignore
+# OpenClaw cron runtime state (local only; job definitions stay in cron/jobs.json)
