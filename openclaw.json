@@ -3,7 +3,7 @@
     "defaults": {
       "workspace": "/data/.openclaw/workspace",
       "model": {
-        "primary": "google/gemini-3.5-flash"
+        "primary": "google/gemini-3.1-flash-lite"
       },
       "models": {
         "anthropic/claude-opus-4-8": {},
