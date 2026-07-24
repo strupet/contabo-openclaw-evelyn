@@ -7,7 +7,8 @@
       },
       "models": {
         "anthropic/claude-opus-4-8": {},
-        "anthropic/claude-sonnet-4-6": {}
+        "anthropic/claude-sonnet-4-6": {},
+        "google/gemini-3.5-flash": {}
       }
     }
   },
@@ -28,7 +29,8 @@
     ],
     "controlUi": {
       "allowedOrigins": [
-        "http://100.112.242.78:8811"
+        "http://100.112.242.78:8811",
+        "http://localhost:3000"
       ]
     }
   },
@@ -72,6 +74,14 @@
       "anthropic:default": {
         "provider": "anthropic",
         "mode": "api_key"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      },
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
       }
     }
   },
@@ -88,7 +98,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.6.11",
-    "lastTouchedAt": "2026-07-13T19:57:19.530Z"
+    "lastTouchedAt": "2026-07-13T19:58:15.582Z"
   },
   "channels": {
     "telegram": {
@@ -99,7 +109,10 @@
     }
   },
   "commands": {
-    "restart": true
+    "restart": true,
+    "ownerAllowFrom": [
+      "telegram:105690365"
+    ]
   },
   "hooks": {
     "internal": {
