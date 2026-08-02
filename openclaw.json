@@ -3,15 +3,39 @@
     "defaults": {
       "workspace": "/data/.openclaw/workspace",
       "model": {
-        "primary": "google/gemini-3.1-flash-lite"
+        "primary": "openrouter/deepseek/deepseek-v4-flash"
       },
       "models": {
         "anthropic/claude-opus-4-8": {},
         "anthropic/claude-sonnet-4-6": {},
         "google/gemini-3.5-flash": {},
-        "google/gemini-3.1-flash-lite": {}
+        "google/gemini-3.1-flash-lite": {},
+        "google/gemini-3.5-flash-lite": {},
+        "openrouter/deepseek/deepseek-v4-flash": {
+          "params": {
+            "provider": {
+              "order": [
+                "deepinfra",
+                "fireworks"
+              ],
+              "allow_fallbacks": true
+            }
+          }
+        }
       }
-    }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "Main Agent",
+        "workspace": "/data/.openclaw/workspace",
+        "agentDir": "/data/.openclaw/agents/main/agent",
+        "model": {
+          "primary": "openrouter/deepseek/deepseek-v4-flash"
+        }
+      }
+    ]
   },
   "gateway": {
     "mode": "local",
@@ -82,6 +106,10 @@
       },
       "google:default": {
         "provider": "google",
+        "mode": "api_key"
+      },
+      "openrouter:default": {
+        "provider": "openrouter",
         "mode": "api_key"
       }
     }
