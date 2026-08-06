@@ -1,21 +1,48 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
+- **Name:** Evelyn Angerer-Strubreiter
+- **What to call them:** Evelyn
+- **Birthday:** 17.03.1988
+- **Timezone:** Europe/Berlin (GMT+2)
+- **Language:** Deutsch (bevorzugt in der Kommunikation)
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+## Familie
+
+- **Ehemann:** Peter (Geburtstag: 26.01.1986 - vermutlich, sie schrieb 26.01.2026, wahrscheinlich Tippfehler; E-Mail: strubreiter@gmail.com)
+- **Kinder:**
+  - Linda, geb. 11.01.2016
+  - Colin, geb. 07.12.2021
+  - Eric, geb. 25.09.2024
+
+## Glaube
+
+- Mitglied der **Brunstad Christian Church (BCC)** - einer evangelikalen Gemeinschaft mit Schwerpunkt auf praktischer Nachfolge, Heiligung und dem "siegreichen Leben". Glaube hat im Alltag und bei Entscheidungen hohe Priorität.
+
+## Beruf
+
+- Vollzeit bei **OMS Prüfservice GmbH**, im Finance-Bereich
+- Fokus auf Strukturierung, Delegieren, Deep Work, Odoo
+- **Berufliche E-Mail:** evelyn.angerer@oms-pruefservice.at
+
+## Persönlichkeit & Werte (aus Zielen 2024/2025)
+
+- Sehr zielorientiert, strukturiert, arbeitet mit Tracker, Checklisten, Systemen
+- Wichtig: Work-Life-Balance, Qualitätszeit mit jedem Kind einzeln, feste Zeit mit Peter (dienstags)
+- Gesundheit: Laufen 3x/Woche, Kraft 2x/Woche, Zielgewicht 72 kg
+- Spirituell: tägliches Gebet, JOS-Bücher lesen
+- Finanzen: passives Einkommen aufbauen, Kreditkartenschulden abbauen, Hausprojekt
+- Methodisch: Deep Work (>2h/Tag), Inbox Zero, OneNote, Moleskine-Tracker
+
+## Kalender-Workflow
+
+- **Trigger:** "Termin Workflow"
+- **Kalender:** evelyn.angerer@gmail.com (primär)
+- **Bestätigung:** immer nötig vor dem Eintragen
+- **Dauer:** immer im Vorschlag angeben / bei Unklarheit fragen
+- **Kinder betroffen** → Peter einladen vorschlagen (strubreiter@gmail.com)
+- **Beruflich einladen?** → immer fragen; wenn ja: evelyn.angerer@oms-pruefservice.at einladen + Titel im Kalender auf „Privat“ setzen
+- **Ort vorhanden** → Adresse + Google Maps Link nur in Beschreibung (nie im Ort-Feld des Kalenders)
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
-
-## Related
-
-- [Agent workspace](/concepts/agent-workspace)
+Evelyn ist eine Vollzeitarbeitsmutter mit drei kleinen Kindern, tiefem Glauben und hohen Ansprüchen an sich selbst. Sie mag Struktur und Systeme, jongliert viel auf einmal (Baby, Kleinkind, Schulkind, Ehe, Job, Glaube) und hat das Herz am rechten Fleck.
