@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "accounts": [
+    {
+      "id": "03b5a900",
+      "email": "evelyn.angerer@gmail.com",
+      "client": "personal",
+      "personal": true,
+      "services": [
+        "calendar:write",
+        "contacts:write",
+        "gmail:read",
+        "docs:read",
+        "sheets:read",
+        "drive:write",
+        "tasks:read",
+        "docs:write",
+        "meet:read",
+        "tasks:write",
+        "meet:write",
+        "drive:read",
+        "sheets:write",
+        "calendar:read",
+        "contacts:read"
+      ],
+      "authenticated": true,
+      "gmailWatch": {
+        "enabled": false,
+        "port": null,
+        "expiration": null,
+        "lastPushAt": null,
+        "pid": null
+      }
+    }
+  ],
+  "gmailPush": {
+    "token": "5pa0gS3MiLfDgoEMuRkbXhDlpQQkby23",
+    "topics": {}
+  }
+}
