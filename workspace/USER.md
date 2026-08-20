@@ -35,13 +35,19 @@
 
 ## Kalender-Workflow
 
-- **Trigger:** "Termin Workflow"
+- **Trigger:** Evelyn sagt explizit „Termin Workflow Arbeitszeit“ oder „Termin Workflow Freizeit“
 - **Kalender:** evelyn.angerer@gmail.com (primär)
 - **Bestätigung:** immer nötig vor dem Eintragen
 - **Dauer:** immer im Vorschlag angeben / bei Unklarheit fragen
-- **Kinder betroffen** → Peter einladen vorschlagen (strubreiter@gmail.com)
-- **Beruflich einladen?** → immer fragen; wenn ja: evelyn.angerer@oms-pruefservice.at einladen + Titel im Kalender auf „Privat“ setzen
+- **Peter einladen:** immer, wenn Kinder betroffen sind (strubreiter@gmail.com) – gilt für beide Varianten
 - **Ort vorhanden** → Adresse + Google Maps Link nur in Beschreibung (nie im Ort-Feld des Kalenders)
+
+### Varianten
+
+| Aspekt | 🏢 Arbeitszeit | 🌴 Freizeit |
+|--------|---------------|-------------|
+| **Titel** | IMMER „Privat“ (damit Kollegen keine Details sehen) | normaler, aussagekräftiger Titel |
+| **Berufliche Einladung** | ✅ evelyn.angerer@oms-pruefservice.at einladen | ❌ nicht einladen |
 
 ## Context
 
