@@ -3,7 +3,7 @@
     "defaults": {
       "workspace": "/data/.openclaw/workspace",
       "model": {
-        "primary": "openrouter/stealth/ox-alpha"
+        "primary": "openrouter/google/gemini-3.7-flash"
       },
       "models": {
         "anthropic/claude-opus-4-8": {},
@@ -12,6 +12,7 @@
         "google/gemini-3.1-flash-lite": {},
         "google/gemini-3.5-flash-lite": {},
         "openrouter/stealth/ox-alpha": {},
+        "openrouter/google/gemini-3.7-flash": {},
         "openrouter/deepseek/deepseek-v4-flash": {
           "params": {
             "provider": {
@@ -33,7 +34,7 @@
         "workspace": "/data/.openclaw/workspace",
         "agentDir": "/data/.openclaw/agents/main/agent",
         "model": {
-          "primary": "openrouter/deepseek/deepseek-v4-flash"
+          "primary": "openrouter/google/gemini-3.7-flash"
         }
       }
     ]
