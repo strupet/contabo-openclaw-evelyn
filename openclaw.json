@@ -3,7 +3,7 @@
     "defaults": {
       "workspace": "/data/.openclaw/workspace",
       "model": {
-        "primary": "openrouter/google/gemini-3.8-flash"
+        "primary": "openrouter/z-ai/glm-5.3-flash"
       },
       "models": {
         "anthropic/claude-opus-4-8": {},
@@ -44,7 +44,7 @@
         "workspace": "/data/.openclaw/workspace",
         "agentDir": "/data/.openclaw/agents/main/agent",
         "model": {
-          "primary": "openrouter/z-ai/glm-5.3-flash"
+          "primary": "openrouter/google/gemini-3.8-flash"
         }
       }
     ]
