@@ -41,6 +41,7 @@
 - **Dauer:** immer im Vorschlag angeben / bei Unklarheit fragen
 - **Peter einladen:** immer, wenn Kinder betroffen sind (strubreiter@gmail.com) – gilt für beide Varianten
 - **Ort vorhanden** → Adresse + Google Maps Link nur in Beschreibung (nie im Ort-Feld des Kalenders)
+- **Kind im Titel:** Bei Schulterminen das Kind im Titel ergänzen, z. B. „… (Linda)“
 
 ### Varianten
 
