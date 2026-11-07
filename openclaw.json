@@ -34,12 +34,22 @@
             }
           }
         }
+      },
+      "modelPolicy": {
+        "allow": [
+          "anthropic/claude-opus-4-8",
+          "anthropic/claude-sonnet-4-6",
+          "google/gemini-3.5-flash",
+          "google/gemini-3.1-flash-lite",
+          "google/gemini-3.5-flash-lite",
+          "openrouter/z-ai/glm-5.3-flash",
+          "openrouter/google/gemini-3.8-flash",
+          "openrouter/deepseek/deepseek-v4.1-flash"
+        ]
       }
     },
-    "list": [
-      {
-        "id": "main",
-        "default": true,
+    "entries": {
+      "main": {
         "name": "Main Agent",
         "workspace": "/data/.openclaw/workspace",
         "agentDir": "/data/.openclaw/agents/main/agent",
@@ -47,7 +57,7 @@
           "primary": "openrouter/deepseek/deepseek-v4.1-flash"
         }
       }
-    ]
+    }
   },
   "gateway": {
     "mode": "local",
@@ -56,10 +66,9 @@
       "token": "872204aa16bc76aa65636052e4b3992a02f49d5cf21680ca"
     },
     "port": 18789,
-    "bind": "loopback",
+    "bind": "lan",
     "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
+      "mode": "off"
     },
     "trustedProxies": [
       "127.0.0.1"
@@ -89,21 +98,25 @@
       "telegram": {
         "enabled": true
       },
-      "usage-tracker": {
-        "enabled": true,
-        "hooks": {
-          "allowConversationAccess": true
-        }
+      "google": {
+        "enabled": true
+      },
+      "openrouter": {
+        "enabled": true
+      },
+      "perplexity": {
+        "enabled": true
       }
     },
     "allow": [
       "telegram",
-      "usage-tracker"
+      "google",
+      "openrouter",
+      "anthropic",
+      "perplexity"
     ],
     "load": {
-      "paths": [
-        "/app/node_modules/@chrysb/alphaclaw/lib/plugin/usage-tracker"
-      ]
+      "paths": []
     }
   },
   "auth": {
@@ -129,17 +142,118 @@
   "skills": {
     "install": {
       "nodeManager": "npm"
+    },
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
     }
   },
   "wizard": {
-    "lastRunAt": "2026-07-13T19:57:11.606Z",
-    "lastRunVersion": "2026.6.11",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-11-07T12:04:23.357Z",
+    "lastRunVersion": "2026.11.1",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.6.11",
-    "lastTouchedAt": "2026-07-13T19:58:15.582Z"
+    "lastTouchedVersion": "2026.11.1",
+    "migrations": {
+      "modelPolicyAllowlist": true,
+      "webhookListeners": {
+        "telegram": [],
+        "feishu": [],
+        "msteams": [],
+        "nextcloud-talk": []
+      },
+      "utilityModelSeparation": true
+    }
   },
   "channels": {
     "telegram": {
@@ -149,7 +263,8 @@
       "groupPolicy": "allowlist",
       "capabilities": {
         "inlineButtons": "dm"
-      }
+      },
+      "richMessages": true
     }
   },
   "commands": {
