@@ -44,7 +44,7 @@
         "workspace": "/data/.openclaw/workspace",
         "agentDir": "/data/.openclaw/agents/main/agent",
         "model": {
-          "primary": "openrouter/z-ai/glm-5.3-flash"
+          "primary": "openrouter/deepseek/deepseek-v4.1-flash"
         }
       }
     ]

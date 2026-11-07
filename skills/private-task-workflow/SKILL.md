@@ -85,7 +85,8 @@ Dem User bestätigen und **immer den Link zum Task mitsenden** (von gog als `lin
 
 ## Wichtige Regeln
 1. **Niemals ohne Bestätigung speichern** – Vorschlag zeigen, auf Ja warten
-2. Bei Unklarheit bei der Liste: nachfragen, nicht raten
+2. **Die Bestätigungsschleife gilt IMMER** – auch wenn Evelyn Liste/Titel/Fälligkeit selbst angibt. Erst Vorschlag zeigen (inkl. ihrer Angaben), dann auf Bestätigung warten.
+3. Bei Unklarheit bei der Liste: nachfragen, nicht raten
 3. Fälligkeit immer angeben oder explizit sagen "keine Fälligkeit"
 4. **Immer den Task-Link mitsenden** nach dem Speichern
 5. Nur für PRIVATE Aufgaben – berufliche Odoo-Themen gehören nicht hier rein

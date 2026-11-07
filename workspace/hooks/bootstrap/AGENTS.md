@@ -45,6 +45,3 @@ Whenever you do this, end your message with a **Changes committed** summary. Use
 Changes committed ([abc1234](commit url)): <-- linked abbreviated hash, no backticks
 • path/or/resource (new|edit|delete) — brief description
 ```
-### GBrain Autopilot - start on every boot
-#
-bash /data/.gbrain/start-autopilot.sh
