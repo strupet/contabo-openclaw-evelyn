@@ -1,0 +1,12 @@
+#!/bin/sh
+# Git credential helper: liefert GitHub-Credentials aus /data/.env (GITHUB_TOKEN).
+if [ -f /data/.env ]; then
+  FILE_TOKEN="$(grep -m1 "^GITHUB_TOKEN=" /data/.env | cut -d= -f2-)"
+  if [ -n "$FILE_TOKEN" ]; then
+    GITHUB_TOKEN="$FILE_TOKEN"
+  fi
+fi
+if [ -n "${GITHUB_TOKEN:-}" ]; then
+  echo "username=x-access-token"
+  echo "password=${GITHUB_TOKEN}"
+fi
